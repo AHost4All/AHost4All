@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="utf-8">
+      <title><%= $document.title %></title>
+      <meta name="description" content=<%= @document.description %>>
+      <meta name="keyword" content=<%= @document.keyword %>>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <script>
+         function loadBackupCSS(url) {
+         var l = document.createElement('link');
+         l.rel = 'stylesheet';
+         l.href = url;
+         document.head.appendChild(l);
+         }
+       </script>
+       
+      <!-- Favicon --> 
+      <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+      <!-- End Favicon -->
+      
+      <!-- Meta/Social/ Canonical URL -->
+      <meta property="og:title" content=<%= $document.title %> />
+      <meta property="og:url" content="https://www.ahost4all.com"/>
+      <meta property="og:site_name" content="Webhosting"/>
+      <meta property="og:description" content=<%= @document.description %>/>
+      <meta property="og:image" content="img/mylogo.png"/>
+      
+      <!-- Canonical URL -->
+      <link rel="canonical" href="https://www.ahost4all.com"/>
+      <!-- End Canonical URL -->
+      
+      <!-- CSS -->
+      <link rel="stylesheet" href="/styles/bootstrap.min.css" />
+      <link rel="stylesheet" href="/styles/animate.min.css" />
+      <link rel="stylesheet" href="/styles/font-awesome.min.css" />
+      <link rel="stylesheet" href="/styles/themify-icons.css" />
+      <link rel="stylesheet" href="/styles/owl.carousel.css" />
+      <link rel="stylesheet" href="/styles/magnific-popup.css" />
+      <link rel="stylesheet" href="/styles/main.css" />
+      <link rel="stylesheet" href="/styles/responsive.css" />
+      <!-- COLORING CSS -->
+      <link rel="stylesheet" href="/styles/page-css/hosting.css" />
+   </head>
+   
