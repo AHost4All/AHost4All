@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Website for AHost4All Hosting Company",
   "dependencies": {
-    "docpad": "~6.80.6"
+    "docpad": "~6.80.6",
     "docpad-plugin-eco": "~2.2.1",
     "docpad-plugin-ghpages": "~2.6.1",
     "docpad-plugin-highlightjs": "~2.5.0",
