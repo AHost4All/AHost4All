@@ -1,12 +1,31 @@
 {
-  "name": "no-skeleton.docpad",
+  "name": "AHost4All.com",
   "version": "0.1.0",
-  "description": "New DocPad project without using a skeleton",
+  "description": "Website for AHost4All Hosting Company",
   "dependencies": {
     "docpad": "~6.80.6"
+    "docpad-plugin-eco": "~2.2.1",
+    "docpad-plugin-ghpages": "~2.6.1",
+    "docpad-plugin-highlightjs": "~2.5.0",
+    "docpad-plugin-jshint": "~2.2.1",
+    "docpad-plugin-less": "~2.5.1",
+    "docpad-plugin-livereload": "~2.9.0",
+    "docpad-plugin-marked": "~2.4.0",
+    "docpad-plugin-partials": "~2.11.0",
+    "docpad-plugin-redirector": "~2.1.0",
+    "docpad-plugin-sitemap": "~2.4.0",
+    "docpad-plugin-thumbnails": "~2.1.2",
+    "docpad-plugin-uglify": "~2.5.0",
+    "underscore": "^1.8.3"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
-    "start": "node_modules/.bin/docpad-server"
+    "start": "docpad run",
+    "run": "node_modules/.bin/docpad-server",
+    "deploy": "docpad deploy-ghpages --env static"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/AHost4All/AHost4All",
+  "devDependencies": {
   }
 }
