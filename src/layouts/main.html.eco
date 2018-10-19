@@ -94,8 +94,8 @@
       <section class="bg-gray pdd-btm-10 pdd-top-10">
          <div class="container">	
             <div class="cta no-border text-center">
-               <h1>Any Question ?</h1>
-               <p>Nullam ut consectetur dolor. Sed sit amet iaculis nisi. Mauris ridiculus elementum non felis etewe blandit.</p>
+               <h1>Start your website today!</h1>
+               <p>Show off you skills to the world and join A Host 4 All today!</p>
                <a href="#" class="btn btn-md btn-shadow btn-blue-light mrg-top-20">Ask Us Now</a>
             </div>
          </div>
@@ -168,6 +168,16 @@
    </footer>
    
    <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-arrow-up"></i></a>
+   
+   
+   
+   <% if @getEnvironment() == "development" %>
+    <script src="https://cdn.logrocket.io/LogRocket.min.js" crossorigin="anonymous"></script>
+    <script>window.LogRocket && window.LogRocket.init('a-host-4-all/dev-website');</script>
+   <% else %>
+    <script src="https://cdn.logrocket.io/LogRocket.min.js" crossorigin="anonymous"></script>
+    <script>window.LogRocket && window.LogRocket.init('a-host-4-all/website');</script>
+   <% end %>
    
     <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
