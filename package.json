@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "description": "Hosting Website for A Host 4 All",
   "dependencies": {
-    "docpad": "~6.82.1",
+    "docpad": "~6.80.0",
     "docpad-plugin-cleanurls": "~2.10.0",
     "docpad-plugin-eco": "~2.2.1",
     "docpad-plugin-ghpages": "~2.6.1",
