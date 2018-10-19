@@ -31,14 +31,18 @@ module.exports =
       cachetime: 600000
       changefreq: "monthly"
       priority: 0.5
-      hostname: "https://www.ahost4all.com"
+      hostname: "https://www.andrewchumchal.com"
+
+    redirector:
+      redirects:
+        "/files/Andrew-Chumchal-Resume.pdf": "http://gh.andrewchumchal.com/Andrew-Chumchal-Resume.pdf"
 
     cleanurls:
       trailingSlashes: true # this is to avoid having github pages redirect users from the cloudfront domain to the github domain just to add the slash to the end of the url.
 
     jshint:
       ignorePaths: ['scripts/lightbox/', 'stuff/jquery-requirejs-noconflict-issue', 'bower_components/']
-
+      
     projects: ->
       projects = @getFilesAtPath("projects", [filename: 1])
       projects.each (project) ->
@@ -72,4 +76,4 @@ module.exports =
 
 
     site:
-      url: "https://www.ahost4all.com"
+      url: "http://gh.andrewchumchal.com"
