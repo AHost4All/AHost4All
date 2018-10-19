@@ -5,7 +5,10 @@ My personal website. Introduces me.
 
 Built with [DocPad], [Markdown], [Bootstrap], and [Node.js]. Hosted on [GitHub Pages].
 
-![Build Status](https://api.travis-ci.org/AHost4All/AHost4All.svg?branch=master)
+<p align="center">
+  <a href="https://travis-ci.org//AHost4All/AHost4All"><img src="https://travis-ci.org//AHost4All/AHost4All.svg" alt="Travis"></a>
+  <a href="https://snyk.io/test/github/AHost4All/AHost4All"><img src="https://snyk.io/test/github//AHost4All/AHost4All/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github//AHost4All/AHost4All" style="max-width:100%;"></a>
+</p>
 
 
 
