@@ -23,7 +23,7 @@ if [ "$TRAVIS_REPO_SLUG" == "$GH_REPO" ] && [ "$TRAVIS_PULL_REQUEST" == "false" 
   echo "Setting up $GH_REPO $OUT_BRANCH in $OUT_DIR"
 
   git config --global user.email "Andrew@andrewchumchal.com"
-  git config --global user.name "AndrewChumchal"
+  git config --global user.name "andrewchumchal"
   git config --global push.default simple
 
   export REPO_URL="ssh://$GH_TOKEN@github.com/$GH_REPO.git"
