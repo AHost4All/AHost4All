@@ -1,0 +1,154 @@
+/*---------------------------------------------------------------------------
+  Theme: Lutfi - Hosting Theme & Blesta Theme
+  Author: Lutfi Fitri Handayani
+----------------------------------------------------------------------------*/
+/* Page CSS - Hosting */
+
+body {
+}
+
+.huge-number {
+	font-size: 40px;
+    padding-right: 15px;
+}
+
+.main-nav {
+	border-bottom: 0px !important
+}
+/* Page CSS */
+
+body {
+	font-weight: normal
+}
+
+.huge-number {
+	font-size: 40px;
+    padding-right: 15px;
+}
+
+.bg-blue {
+    background-color: #1080F2;
+	color: #ececec
+}
+
+.blue {color: #1080F2;}
+.orange {color:#ff5c26;}
+.green {color:#4cff4c;}
+.dark {color:#cccccc;}
+.light {color:#444444;}
+.yellow {color:#ffff26;}
+.ping {color:#ff73b9;}
+.green-light {color:#004000;}
+
+.btn-blue {background-color: #1080F2;color:#ffffff;}
+.btn-orange {background-color:#ff5c26;color:#ffffff;}
+.btn-green {background-color:#4cff4c;color:#ffffff;}
+.btn-dark {background-color:#cccccc;color:#222222;}
+.btn-light {background-color:#444444;color:#ffffff;}
+.btn-yellow {background-color:#ffff26;color:#ffffff;}
+.btn-ping {background-color:#ff73b9;color:#ffffff;}
+.btn-blue-light {background-color:#363c44;color:#ffffff;}
+
+.btn-blue:hover, 
+.btn-orange:hover, 
+.btn-green:hover, 
+.btn-dark:hover, 
+.btn-light:hover, 
+.btn-yellow:hover, 
+.btn-ping:hover, 
+.btn-blue-light:hover{color:#ffffff;box-shadow: 0 2px 10px #7f7f7f;}
+
+.btn-shadow:hover{box-shadow: 0 2px 6px #7f7f7f;}
+
+.bg-blue input-placeholder,
+.bg-blue ::-webkit-input-placeholder {
+    color: #ececec
+}
+
+.btn-style-2 {
+	background-color: #1080F2 !important;
+	border: 1px solid transparent !important;
+}
+
+.btn-style-2:hover {
+	color: #1080F2 !important;
+	border: 1px solid #1080F2 !important;
+}
+
+.os {
+	display: table;
+	position: relative
+}
+
+.os li {
+	float: left;
+	font-size: 25px;
+	padding-right: 30px;
+}
+
+.android {
+	color: #97C024;
+}
+
+.microsoft {
+	color: #01ACF2
+}
+
+.team-style-3 .social-icon li a,
+.progress-bar {
+	background-color: #01ACF2
+}
+
+.parallax-overlay-dark:before {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.list li:before {
+	color: #1080F2;
+	font-size: 18px
+}
+
+.owl-pagi-1 .owl-pagination .owl-page.active span, .owl-pagi-1 .owl-pagination .owl-page:hover span {
+    background-color: #1080F2;
+    height: 7px;
+    width: 7px;
+    box-shadow: 0 0 0 2px #1080F2;
+}
+
+.owl-pagi-1 .owl-pagination .owl-page span {
+    border: 1px solid #1080F2;
+}
+
+.iphone {
+	position: relative;
+	max-width: 408px
+}
+
+.apps-showcase .owl-carousel {
+	position: absolute;
+	width: 69.2%;
+    top: 12.3%;
+    left: 14.5%;
+}
+
+.carousel-control.control-style-2.left, .carousel-control.control-style-2.right {
+  bottom: 0;
+  cursor: pointer;
+  height: 10px;
+  margin: auto;
+  top: 0;
+}
+
+@media (min-width: 499px) and (max-width: 991px) {
+	.apps-showcase .owl-carousel {
+		width: 57.3%;
+        left: 20.3%;
+	}
+}
+
+@media (min-width: 464px) and (max-width: 498px) {
+	.apps-showcase .owl-carousel {
+	       width: 59.2%;
+          left: 19.5%;
+	}
+}
