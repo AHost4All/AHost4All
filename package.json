@@ -13,7 +13,6 @@
     "docpad-plugin-livereload": "~2.10.0",
     "docpad-plugin-marked": "~2.5.0",
     "docpad-plugin-partials": "~2.13.0",
-    "docpad-plugin-redirector": "~2.1.0",
     "docpad-plugin-sitemap": "~2.5.0",
     "docpad-plugin-thumbnails": "~2.1.2",
     "docpad-plugin-uglify": "~2.6.0",
