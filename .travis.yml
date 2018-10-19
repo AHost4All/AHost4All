@@ -6,7 +6,7 @@ node_js:
 sudo: false
 deploy:
   provider: script
-  script: ./scripts/deploy.sh
+  script: ./scripts/npmdeploy.sh
   on:
     branch: master
 env:
