@@ -1,6 +1,4 @@
 language: node_js
-before_script:
-- ./scripts/prebuild.sh
 node_js:
 - 6
 sudo: false
@@ -8,5 +6,4 @@ script:
 - npm run deploy
 env:
   global:
-  - GH_REPO="AHost4All/AHost4All"
 # GH_TOKEN is set in travis's web ui now, username & email are set in scripts/deploy.sh
