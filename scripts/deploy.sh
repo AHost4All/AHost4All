@@ -9,6 +9,11 @@
 
 # get a token from https://github.com/settings/tokens and encrypt it like so:
 # travis encrypt --add -r user-org-name/repo-name 'GH_TOKEN=xxxxxxxxxxxxxxxxxxx'
+if [[ $TRAVIS_BRANCH == 'master' ]]
+  echo -e "AChumchal Master"
+else
+  echo -e "AChumchal NonMaster"
+fi
 
 export GH_REPO="AHost4All/AHost4All"
 export IN_BRANCH="master"
