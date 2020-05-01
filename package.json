@@ -17,14 +17,18 @@
     "docpad-plugin-sitemap": "~2.5.0",
     "docpad-plugin-thumbnails": "~2.1.2",
     "docpad-plugin-uglify": "~2.6.0",
-    "underscore": "^1.9.1"
+    "underscore": "^1.9.1",
+    "snyk": "^1.316.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "docpad run",
-    "deploy": "docpad deploy-ghpages --env static"
+    "deploy": "docpad deploy-ghpages --env static",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "MIT",
   "repository": "https://github.com/AHost4All/AHost4All/",
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
